@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
+import Footer from '../Components/Home/Footer/Footer'
+import Header from '../Components/Home/Header/Header'
 // import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
 
@@ -14,8 +16,10 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <h1>NETFLIX</h1>
+          <Header />
         <Link href="/about" >Go to about page!</Link>
+
+        <Footer />
       </main>
 
       <footer>

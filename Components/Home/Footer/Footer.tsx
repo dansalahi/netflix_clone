@@ -1,7 +1,7 @@
 import './Footer.module.css'
 
 const Footer = () => {
-  return <footer>i am a footer</footer>
+  return <footer></footer>
 }
 
 export default Footer
